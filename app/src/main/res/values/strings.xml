@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Baratoneh</string>
     <string name="registrar">Não está cadastrado, Registre-se já!</string>
+    <string name="title_activity_main">BaratoNeh</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">logout</string>
+    <string name="action_perfil">Perfil</string>
 </resources>

@@ -25,6 +25,14 @@ public class LoginActivity extends AppCompatActivity {
         txtEmail = (EditText)findViewById(R.id.edtLogin);
         txtSenha = (EditText)findViewById(R.id.edtSenha);
         btnLogar = (Button)findViewById(R.id.btnLogin);
+        btnLogar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent abreMain = new Intent(LoginActivity.this,MainActivity.class);
+                startActivity(abreMain);
+
+            }
+        });
         txtRegistro = (TextView)findViewById(R.id.txtRegistro);
         txtRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
