@@ -3,23 +3,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/nav_mercado"
             android:title="Mercados" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Produtos" />
+            android:id="@+id/nav_produto"
+            android:title="Produtos"
+            android:iconTint="#FFFFFF"/>
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/nav_listadesejo"
             android:title="Lista de Desejos" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
     </group>
-
+    <!--
     <item android:title="Communicate">
         <menu>
             <item
@@ -31,6 +25,6 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
         </menu>
-    </item>
+    </item>-->
 
 </menu>
